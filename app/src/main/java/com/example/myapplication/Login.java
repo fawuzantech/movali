@@ -41,7 +41,7 @@ public class Login extends AppCompatActivity {
 
           try{
              if(authmail.equals(usercode) & authpass.equals(passcode)){
-                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                 Intent intent = new Intent(getApplicationContext(), Login.class);
                  startActivity(intent);
              }else{
                  Intent intent = new Intent(getApplicationContext(), Login.class);
